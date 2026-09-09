@@ -35,12 +35,18 @@ header{
     gap: 40px;
     box-sizing: border-box
 }
+@keyframes navHoverPop {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
 .nav-bar ul{
     display: flex;
     list-style: none;
     gap: 20px;
 }
 .nav-bar ul li a{
+    display: inline-block;
     color: #E5E5E5;
     text-decoration: none;
     padding: 10px 20px;
@@ -50,6 +56,7 @@ header{
 .nav-bar ul li a:hover{
     background-color: #16A34A;
     border-radius: 50px;
+    animation: navHoverPop 0.4s ease;
 }
 .name {
     display: flex;
@@ -63,8 +70,10 @@ header{
     justify-content: flex-start;            
     gap: 40px;    
 }
-.hero-content{
-    margin: 0;
+@keyframes Buttonhoverpop {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.1); }
+    100% { transform: scale(1); }
 }
 #home-content {
     scroll-margin-top: 100px;
@@ -112,6 +121,7 @@ header{
 }
 .btn-primary:hover{
     background-color: white;
+    animation: Buttonhoverpop 0.4s ease;
 
 }
 /********************* ABOUT SECTION *************************/
@@ -208,6 +218,11 @@ header{
     margin-top: 30px;
     color: #808080
 }
+@keyframes skillshoverpop {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
 .programming-skills ul{
     display: flex;
     list-style: none;
@@ -229,6 +244,7 @@ header{
     background-color: #16A34A;
     color: white;
     border-radius: 100px;
+    animation: skillshoverpop 0.4s ease;
 }
 .tools-header {
     display: flex;
@@ -260,6 +276,7 @@ header{
     background-color: #16A34A;
     color: white;
     border-radius: 100px;
+    animation: skillshoverpop 0.4s ease;
 }
 .certification-header {
     display: flex;
@@ -291,6 +308,7 @@ header{
     background-color: #16A34A;
     color: white;
     border-radius: 100px;
+    animation: skillshoverpop 0.4s ease;
 }
 /********************* EDUCATION SECTION *************************/
 .education-section{
