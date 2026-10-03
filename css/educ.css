@@ -1,0 +1,154 @@
+/********************* EDUCATION SECTION *************************/
+.education-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 0px;
+    padding: 0;
+}
+.timeline {
+    position: relative;
+    padding-left: 24px;
+    margin-top: 40px;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 2px;
+    height: 90%;
+    background-color: #E5E5E5;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 65px;
+}
+.timeline-dot-current {
+    position: absolute;
+    left: -32px;
+    top: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid #16A34A;
+    background-color: black;
+}
+.education-section h1 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #16A34A
+}
+.education-section h2 {
+    font-size: 64px;
+    margin: 0;
+    margin-top: 0px;
+    color: white
+}
+.current-education{
+    color:#16A34A;
+    font-size: 26px;
+    font-weight: bold;
+}
+.current{
+    color: #16A34A;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+}
+.current-header{
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    margin-top: 8px;
+}
+.current-school{
+    color: #16A34A;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+}
+.current-description{
+    color: #808080;
+    max-width: 700px;
+    margin: 0;
+    margin-top: 12px;
+}
+.shs {
+    position: relative;
+    margin-bottom: 65px;
+}
+.timeline-dot-shs {
+    position: absolute;
+    left: -32px;
+    top: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid #808080;
+    background-color: black;
+}
+.senior-high{
+    color: #808080;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+}
+.senior-high-header {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    margin-top: 8px;
+}
+.senior-high-school {
+    color: #16A34A;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+}
+.senior-high-description {
+    color: #808080;
+    max-width: 700px;
+    margin: 0;
+    margin-top: 12px;
+}
+.jhs {
+    position: relative;
+    margin-bottom: 65px;
+}
+.timeline-dot-jhs {
+    position: absolute;
+    left: -32px;
+    top: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 3px solid #808080 ;
+    background-color: black;
+}
+.junior-high {
+    color: #808080;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+}
+.junior-high-header{
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    margin-top: 8px;
+}
+.junior-high-school{
+    color: #16A34A;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 8px;
+}
+.junior-high-description {
+    color: #808080;
+    max-width: 700px;
+    margin: 0;
+    margin-top: 12px;
+}

@@ -1,0 +1,46 @@
+.hero-content p{
+    margin: 5px;
+    font-weight: bold;
+}
+.hero-label {
+    font-size: 36px;
+    color: #16A34A
+}
+.hero-name {
+    font-size: 86px;
+    max-width: 700px;
+    color: white
+}
+.hero-about {
+    font-size: 29px;
+    color: #E5E5E5
+}
+.hero-content .hero-description {
+    margin-top: 30px;
+    font-weight: normal;
+    color: #E5E5E5
+}
+.button-group{
+    margin-top: 50px;
+    gap: 16px;
+    display: flex;
+}
+.btn-primary {
+    padding: 16px 32px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0px;
+    background-color: #16A34A;
+    color: black;
+    border-color: black;
+}
+.btn-primary:hover{
+    background-color: white;
+    transform: scale(1.2);
+
+}

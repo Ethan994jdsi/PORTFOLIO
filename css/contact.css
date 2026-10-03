@@ -1,0 +1,44 @@
+/*********************CONTACT SECTION*******************/
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;     
+    justify-content: flex-start;  
+    padding-top: 30px;
+    height: 100vh;
+}
+.contact-section h2 {
+    color: #16A34A;
+    font-size: 22px;
+}
+.contact-section h1 {
+    color: #E5E5E5;
+    font-size: 56px;
+    margin: 0px 0 0px 0;  
+}
+.contact-section p {
+    color: #E5E5E5;
+    font-size: 16px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.email, .github, .linkedin {
+    border-radius: 12px;
+    border: 1px solid #808080;
+    padding: 16px 200px 16px 24px;
+}
+.email h1, .github h1, .linkedin h1{
+    color: #16A34A;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 4px;   
+}
+.email-section, .github-section, .linkedin-section {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
