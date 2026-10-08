@@ -1,5 +1,5 @@
 @import url("about.css");
-@import url("nav.css");  
+@import url("nav.css");
 @import url("hero.css");
 @import url("about.css");
 @import url("project.css");
@@ -8,66 +8,74 @@
 @import url("educ.css");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    background-color: black;
-    margin: 0;
+  background-color: black;
+  margin: 0;
 }
 section {
-    scroll-margin-top: 100px;
+  scroll-margin-top: 100px;
 }
-    .about-wrapper,
-    .skills,
-    .education-section, 
-    .hero-section,
-    .contact-section, 
-    .project-section{
-    max-width: 1100px;      
-    margin: 0 auto; 
-    padding-left: 0;
-    box-sizing: border-box;
+.about-wrapper,
+.skills,
+.education-section,
+.hero-section,
+.contact-section,
+.project-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 0;
+  box-sizing: border-box;
 }
 #home-content {
-    scroll-margin-top: 100px;
+  scroll-margin-top: 100px;
 }
 
 /***********footer********/
 
 .site-footer {
-    width: 80%;
-    max-width: 1060px;
-    margin: 0 auto;
-    border-top: 1px solid #333;
-    text-align: center;
-    padding: 22px 0 24px;
-    color: #808080;
+  justify-content: center;
+  text-align: center;
+  margin: 0 0 0 auto;
+  width: 80%;
+  max-width: 1060px;
+  border-top: 1px solid #333;
+  padding: 22px 0 24px;
+  color: #808080;
 }
 
 @media screen and (max-width: 768px) {
-    /* **************************GLOBAL ELEMENT****************************/
-    .about-wrapper, .skills, .education-section, .hero-section, .contact-section {
-        padding-left: 20px;
-        padding-right: 20px;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-    .programming-skills ul, .tools-skills ul, .certification-achievement ul {
-        flex-wrap: wrap;
-    }
-    .about-section h2, .skills h2, .education-section h2 { 
-        font-size: 36px; 
-    }
+  /* **************************GLOBAL ELEMENT****************************/
+  .about-wrapper,
+  .skills,
+  .education-section,
+  .hero-section,
+  .contact-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .programming-skills ul,
+  .tools-skills ul,
+  .certification-achievement ul {
+    flex-wrap: wrap;
+  }
+  .about-section h2,
+  .skills h2,
+  .education-section h2 {
+    font-size: 36px;
+  }
 
-    .hero-section, 
-    .skills, 
-    .education-section, 
-    .contact-section
-    .project {
-        align-items: left; 
-        justify-content: left;
-        text-align: left;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .hero-section,
+  .skills,
+  .education-section,
+  .contact-section .project {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

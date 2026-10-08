@@ -1,42 +1,42 @@
 /********************* NAVIGATION SECTION *************************/
-header{
-    display: flex;
-    align-items: center;
-    position: fixed;
-    background-color: black;
-    border-bottom: 1px solid #16A34A;
-    border-radius: 0px;
-    padding: 10px;
-    width: 100%;
-    z-index: 1000;
-    margin: 0;  
-    gap: 40px;
-    box-sizing: border-box
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid #16a34a;
+  border-radius: 0px;
+  padding: 10px;
+  width: 100%;
+  z-index: 1000;
+  margin: 0;
+  gap: 40px;
+  box-sizing: border-box;
 }
-.nav-bar ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
 }
-.nav-bar ul li a{
-    display: inline-block;
-    color: #E5E5E5;
-    text-decoration: none;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
-    font-size: 20px;
+.nav-bar ul li a {
+  display: inline-block;
+  color: #e5e5e5;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  font-size: 50px;
 }
 
-.nav-bar ul li a:hover{
-    transform: scale(1.1);
+.nav-bar ul li a:hover {
+  transform: scale(1.1);
 }
 .nav-bar ul li a::before {
   position: absolute;
   content: " ";
   width: 0;
   height: 2px;
-  background: #16A34A; /* was #f59e0b */
-  transition: .3s;
+  background: #16a34a; /* was #f59e0b */
+  transition: 0.3s;
   bottom: 0;
   left: 0;
 }
@@ -44,14 +44,14 @@ header{
   width: 100%;
 }
 .name {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 /*************************************** HERO SECTION *****************************/
-.hero-section{
-    display: flex;
-    height: 100vh;
-    align-items: center;      
-    justify-content: flex-start;            
-    gap: 40px;    
+.hero-section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
 }
