@@ -24,7 +24,7 @@ header {
   text-decoration: none;
   padding: 10px 20px;
   transition: all 0.3s ease;
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .nav-bar ul li a:hover {
@@ -46,12 +46,4 @@ header {
 .name {
   display: flex;
   align-items: center;
-}
-/*************************************** HERO SECTION *****************************/
-.hero-section {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 40px;
 }
