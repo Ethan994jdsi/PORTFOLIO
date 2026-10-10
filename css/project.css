@@ -1,18 +1,18 @@
 /*********************PROJECT SECTION**************************/
 .project-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    text-align: left;
-    min-height: 100vh;
-    padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  min-height: 100vh;
+  padding-top: 134px;
 }
 .project-section h3 {
-    color: #16A34A;
-    margin: 0;
+  color: #16a34a;
+  margin: 0;
 }
 .project-section h2 {
-    color: white;
-    margin: 0;
-    font-size: 64px;
+  color: white;
+  margin: 0;
+  font-size: 64px;
 }
